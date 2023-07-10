@@ -117,7 +117,8 @@
     document.getElementById('demo').innerHTML=mytime.toLocaleTimeString();
     }
     function del(){
-        document.getElementById("add").remove(document.getElementsByClassName("list-group-item d-flex align-item-center"));
+      document.getElementById("add").remove(document.getElementsByClassName("list-group-item d-flex align-item-center"));
+      localStorage.clear();
     }      
 </script>
 </body>
